@@ -14,7 +14,7 @@ FuraCode Nerd Font Retina 13
 
 ## Neovim
 
-### Baixar o gerenciador de pacotes Paq
+### Instalação do gerenciador de pacotes Paq
 
 ```sh
 git clone --depth=1 https://github.com/savq/paq-nvim.git \
@@ -56,7 +56,7 @@ poetry completions zsh > $ZSH_CUSTOM/plugins/poetry/_poetry
 
 ## Tmux
 
-### Instalar o gerenciador de pacotes TPM
+### Instalação do gerenciador de pacotes TPM
 
 ```sh
 mkdir -p ~/.tmux/plugins
