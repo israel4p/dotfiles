@@ -1,0 +1,18 @@
+--[[
+Neovim init file
+Maintainer: Israel Pereira
+--]]
+
+require('settings')
+require('keymaps')
+require('plugins/lualine')
+require('plugins/nvim-tree')
+require('plugins/nvim-autopairs')
+require('plugins/paq')
+require('plugins/alpha-nvim')
+require('plugins/nvim-cmp')
+require('plugins/nvim-lspconfig')
+require('plugins/emment-vim')
+require('plugins/vim-autopep8')
+require('plugins/nvim-comment')
+require('plugins/nvim-colorizer')
