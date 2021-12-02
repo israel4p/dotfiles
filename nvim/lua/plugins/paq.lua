@@ -24,3 +24,4 @@ paq {'tell-k/vim-autopep8'}
 paq {'terrortylor/nvim-comment'}
 paq {'norcalli/nvim-colorizer.lua'}
 paq {'lukas-reineke/indent-blankline.nvim'}
+paq {'akinsho/toggleterm.nvim'}
