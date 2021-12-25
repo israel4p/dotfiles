@@ -25,3 +25,4 @@ paq {'terrortylor/nvim-comment'}
 paq {'norcalli/nvim-colorizer.lua'}
 paq {'lukas-reineke/indent-blankline.nvim'}
 paq {'akinsho/toggleterm.nvim'}
+paq {'gelguy/wilder.nvim'}
