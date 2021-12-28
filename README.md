@@ -36,6 +36,7 @@ npm install -g bash-language-server
 npm install -g vscode-langservers-extracted
 npm install -g typescript typescript-language-server
 npm install -g ansible-language-server
+pip3 install ansible-lint
 pip3 install pyright
 ```
 
