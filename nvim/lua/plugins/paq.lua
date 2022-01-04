@@ -1,7 +1,7 @@
 local cmd = vim.cmd
 local fn = vim.fn
 
-local paq = require('paq-nvim').paq
+local paq = require('paq').paq
 
 paq {'eddyekofo94/gruvbox-flat.nvim'}
 paq {'nvim-lualine/lualine.nvim'}

@@ -3,12 +3,12 @@ Neovim init file
 Maintainer: Israel Pereira
 --]]
 
+require('plugins/paq')
 require('settings')
 require('keymaps')
 require('plugins/lualine')
 require('plugins/nvim-tree')
 require('plugins/nvim-autopairs')
-require('plugins/paq')
 require('plugins/alpha-nvim')
 require('plugins/nvim-cmp')
 require('plugins/nvim-lspconfig')
