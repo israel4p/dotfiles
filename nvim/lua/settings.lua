@@ -27,6 +27,9 @@ cmd [[au BufEnter * set fo-=c fo-=r fo-=o]]
 -- 4 espaços para tipos de aquivos especificos
 cmd [[autocmd FileType python setlocal shiftwidth=4 tabstop=4]]
 
+-- Cursor em bloco
+cmd [[set guicursor=i:block]]
+
 -- Restaura cursor na ultima posiçao
 cmd [[
   function! ResCur()
