@@ -26,3 +26,4 @@ paq {'norcalli/nvim-colorizer.lua'}
 paq {'lukas-reineke/indent-blankline.nvim'}
 paq {'akinsho/toggleterm.nvim'}
 paq {'gelguy/wilder.nvim'}
+paq {'mg979/vim-visual-multi'}
