@@ -28,6 +28,10 @@ set spoolfile="+INBOX"
 # Update a buffer in
 set timeout = 20
 
+# Binds
+bind pager j next-line
+bind pager k previous-line
+
 # GPG
 #source ~/.mutt/gpg.rc
 
