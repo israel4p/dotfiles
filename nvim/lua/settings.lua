@@ -46,7 +46,6 @@ cmd [[
 ]]
 
 -- Condiguraçoes do NvimTree
-g.nvim_tree_indent_markers = 1
 g.nvim_tree_git_hl = 1
 g.nvim_tree_highlight_opened_files = 1
 g.nvim_tree_add_trailing = 1
@@ -56,7 +55,8 @@ g.nvim_tree_refresh_wait = 1000
 g.nvim_tree_show_icons = {
   git = 1,
   folders = 1,
-  files = 1
+  files = 1,
+  folder_arrows = 1
 }
 
 g.nvim_tree_icons = {
