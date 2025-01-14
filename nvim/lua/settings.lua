@@ -48,4 +48,3 @@ cmd [[
 -- Condiguraçoes do NvimTree
 g.nvim_tree_width_allow_resize  = 1
 g.nvim_tree_refresh_wait = 1000
-
