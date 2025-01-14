@@ -1,15 +1,11 @@
 # Instalação das dependências
 
-## Terminator
-
-### Tema
-
-* [Guvbox](https://github.com/egel/terminator-gruvbox)
+## Alacritty
 
 ### Fonte
 
 ```sh
-FuraCode Nerd Font Retina 13
+FiraCode Nerd Font Retina
 ```
 
 ## Neovim
