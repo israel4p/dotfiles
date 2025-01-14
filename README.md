@@ -29,15 +29,12 @@ git clone --depth=1 https://github.com/savq/paq-nvim.git \
 :PaqInstall
 ```
 
-### Instalação das dependências do LSP
+### Dependências do LSP
 
 ```sh
-npm install -g bash-language-server
-npm install -g vscode-langservers-extracted
-npm install -g typescript typescript-language-server
-npm install -g ansible-language-server
-pip3 install ansible-lint
-pip3 install pyright
+npm install -g neovim
+npm install -g pyright
+apt install python3-autopep8
 ```
 
 ## ZSH
@@ -48,12 +45,6 @@ pip3 install pyright
 * [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md)
 * [Dependências fzf](https://github.com/junegunn/fzf#using-git)
 
-### Plugin do Poetry
-
-```sh
-mkdir $ZSH_CUSTOM/plugins/poetry
-poetry completions zsh > $ZSH_CUSTOM/plugins/poetry/_poetry
-```
 
 ## Tmux
 
