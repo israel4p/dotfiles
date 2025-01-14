@@ -19,8 +19,10 @@ window.padding:
   x: 15
   y: 15
 
-font:
-  size: 13
 
-font.normal:
-  family: "FiraCode Nerd Font Retina"
+font:
+  normal:
+    family: FiraCode Nerd Font
+    style: Retina
+
+  size: 13
