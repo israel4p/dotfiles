@@ -1,0 +1,26 @@
+live_config_reload: true
+
+import: [
+  "~/.config/alacritty/gruvbox_material.yml"
+]
+
+env:
+  TERM: "xterm-256color"
+
+window:
+  dynamic_padding: false
+  opacity: 1
+
+window.dimensions:
+  columns: 200
+  lines: 40
+
+window.padding:
+  x: 15
+  y: 15
+
+font:
+  size: 13
+
+font.normal:
+  family: "FiraCode Nerd Font Retina"
