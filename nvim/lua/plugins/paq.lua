@@ -4,6 +4,7 @@ local fn = vim.fn
 require "paq" {
   {'savq/paq-nvim', opt = true},
   'eddyekofo94/gruvbox-flat.nvim',
+  'AlexvZyl/nordic.nvim',
   'nvim-lualine/lualine.nvim',
   'goolord/alpha-nvim',
   'windwp/nvim-autopairs',

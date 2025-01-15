@@ -6,6 +6,7 @@ Maintainer: Israel Pereira
 require('plugins/paq')
 require('settings')
 require('keymaps')
+require('plugins/nordic')
 require('plugins/lualine')
 require('plugins/alpha-nvim')
 require('plugins/wilder')

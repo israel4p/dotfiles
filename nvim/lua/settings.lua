@@ -19,7 +19,7 @@ opt.cursorline = true           -- Linha do cursor
 opt.confirm = true              -- Confirma quit
 
 -- Tema
-cmd [[colorscheme gruvbox-flat]]
+-- cmd [[colorscheme gruvbox-flat]]
 
 -- Nao comenta automaticamente em uma nova linha
 cmd [[au BufEnter * set fo-=c fo-=r fo-=o]]
