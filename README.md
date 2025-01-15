@@ -41,7 +41,7 @@ apt install python3-autopep8
 * [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md)
 * [Dependências fzf](https://github.com/junegunn/fzf#using-git)
 
-### Plugin autocomplet uv
+### Plugin autocomplete uv
 
 ```sh
 git clone https://github.com/lipov3cz3k/zsh-uv.git \
