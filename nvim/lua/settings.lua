@@ -45,6 +45,30 @@ cmd [[
     augroup END
 ]]
 
+-- Emmet
+cmd [[
+  let g:user_emmet_settings = {
+  \  'variables': {'lang': 'pt-BR'},
+  \  'html': {
+  \    'default_attributes': {
+  \      'option': {'value': v:null},
+  \      'textarea': {'id': v:null, 'name': v:null, 'cols': 10, 'rows': 10},
+  \    },
+  \    'snippets': {
+  \      'html:5': "<!DOCTYPE html>\n"
+  \              ."<html lang=\"${lang}\">\n"
+  \              ."<head>\n"
+  \              ."\t<meta charset=\"${charset}\">\n"
+  \              ."\t<title></title>\n"
+  \              ."\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n"
+  \              ."</head>\n"
+  \              ."<body>\n\t${child}|\n</body>\n"
+  \              ."</html>",
+  \    },
+  \  },
+  \}
+]]
+
 -- Condiguraçoes do NvimTree
 g.nvim_tree_width_allow_resize  = 1
 g.nvim_tree_refresh_wait = 1000
