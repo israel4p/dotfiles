@@ -20,5 +20,7 @@ require "paq" {
   'hrsh7th/nvim-cmp',
   'zbirenbaum/copilot.lua',
   'zbirenbaum/copilot-cmp',
+  'mattn/emmet-vim',
+  'brenoprata10/nvim-highlight-colors',
   'tell-k/vim-autopep8',
 }
