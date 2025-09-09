@@ -23,4 +23,5 @@ require "paq" {
   'mattn/emmet-vim',
   'brenoprata10/nvim-highlight-colors',
   'tell-k/vim-autopep8',
+  'kylechui/nvim-surround',
 }

@@ -30,6 +30,7 @@ git clone --depth=1 https://github.com/savq/paq-nvim.git \
 ```sh
 npm install -g neovim
 npm install -g pyright
+npm install -g bash-language-server
 apt install python3-autopep8
 ```
 
