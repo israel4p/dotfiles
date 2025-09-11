@@ -37,6 +37,7 @@ apt install python3-autopep8
 ## ZSH
 
 ### Instalação do oh-my-zsh e plugins
+
 * [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 * [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md)
 * [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md)
@@ -50,6 +51,13 @@ git clone https://github.com/lipov3cz3k/zsh-uv.git \
 ```
 
 * [zsh-uv](https://github.com/lipov3cz3k/zsh-uv)
+
+## Bash
+
+### Instalação do oh-my-bash e plugins
+
+* [oh-my-bash](https://github.com/ohmybash/oh-my-bash)
+* [Dependências fzf](https://github.com/junegunn/fzf#using-git)
 
 ## Tmux
 
