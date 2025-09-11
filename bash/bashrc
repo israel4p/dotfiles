@@ -84,7 +84,7 @@ OSH_THEME="axin"
 OMB_USE_SUDO=true
 
 # To enable/disable display of Python virtualenv and condaenv
-# OMB_PROMPT_SHOW_PYTHON_VENV=true  # enable
+OMB_PROMPT_SHOW_PYTHON_VENV=true  # enable
 # OMB_PROMPT_SHOW_PYTHON_VENV=false # disable
 
 # To enable/disable Spack environment information
@@ -119,6 +119,7 @@ aliases=(
 plugins=(
   git
   bashmarks
+  progress
 )
 
 # Which plugins would you like to conditionally load? (plugins can be found in ~/.oh-my-bash/plugins/*)
@@ -168,6 +169,11 @@ source "$OSH"/oh-my-bash.sh
 # Activate bash completion
 if [ -f /etc/bash_completion ]; then
   . /etc/bash_completion
+fi
+
+# VTE Configuration
+if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
+  source /etc/profile.d/vte.sh
 fi
 
 # Autocomplet uv and uvx
