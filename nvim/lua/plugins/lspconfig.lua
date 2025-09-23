@@ -1,6 +1,4 @@
-local lspconfig = require('lspconfig')
-
-lspconfig.pyright.setup {
+vim.lsp.config("pyright", {
   settings = {
     python = {
       analysis = {
@@ -11,4 +9,6 @@ lspconfig.pyright.setup {
       }
     }
   }
-}
+})
+
+vim.lsp.enable({"pyright"})
