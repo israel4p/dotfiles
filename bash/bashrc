@@ -158,7 +158,7 @@ fi
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
 
 # GoLang
-export PATH=$PATH:$HOME/.go/bin/
+export PATH=$PATH:/opt/go/bin:$HOME/.go/bin/
 export GOPATH="$HOME/.go"
 
 # Set personal aliases, overriding those provided by oh-my-bash libs,
