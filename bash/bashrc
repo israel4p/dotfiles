@@ -1,6 +1,3 @@
-# separation line
-export PROMPT_COMMAND='printf "\n"'
-
 # Enable the subsequent settings only in interactive sessions
 case $- in
   *i*) ;;
@@ -13,6 +10,7 @@ export OSH='/home/israel/.oh-my-bash'
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-bash is loaded.
 OSH_THEME="axin"
+# OSH_THEME="bakke"
 # OSH_THEME="brainy"
 # OSH_THEME="demula"
 # OSH_THEME="mairan"
@@ -96,6 +94,7 @@ OMB_PROMPT_SHOW_PYTHON_VENV=true  # enable
 # Example format: completions=(ssh git bundler gem pip pip3)
 # Add wisely, as too many completions slow down shell startup.
 completions=(
+  go
   docker
   kubectl
   terraform
