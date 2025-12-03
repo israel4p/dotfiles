@@ -32,6 +32,8 @@ npm install -g neovim
 npm install -g pyright
 npm install -g bash-language-server
 apt install python3-autopep8
+go install golang.org/x/tools/gopls@latest
+go install golang.org/x/tools/cmd/goimports@latest
 ```
 
 ## ZSH
